@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A3E9DD21E07ED3600901C62 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 7A3E9DD11E07ED3600901C62 /* BullsEye.html */; };
+		7A5564E61DEED6E000771109 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5564E51DEED6E000771109 /* AboutViewController.swift */; };
 		7AEA2A721DEBDEF400587A4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEA2A711DEBDEF400587A4E /* AppDelegate.swift */; };
 		7AEA2A741DEBDEF400587A4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AEA2A731DEBDEF400587A4E /* ViewController.swift */; };
 		7AEA2A771DEBDEF400587A4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AEA2A751DEBDEF400587A4E /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A3E9DD11E07ED3600901C62 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
+		7A5564E51DEED6E000771109 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		7AEA2A6E1DEBDEF400587A4E /* BullsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AEA2A711DEBDEF400587A4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AEA2A731DEBDEF400587A4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,8 +58,10 @@
 		7AEA2A701DEBDEF400587A4E /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				7A3E9DD11E07ED3600901C62 /* BullsEye.html */,
 				7AEA2A711DEBDEF400587A4E /* AppDelegate.swift */,
 				7AEA2A731DEBDEF400587A4E /* ViewController.swift */,
+				7A5564E51DEED6E000771109 /* AboutViewController.swift */,
 				7AEA2A751DEBDEF400587A4E /* Main.storyboard */,
 				7AEA2A781DEBDEF400587A4E /* Assets.xcassets */,
 				7AEA2A7A1DEBDEF400587A4E /* LaunchScreen.storyboard */,
@@ -125,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7AEA2A7C1DEBDEF400587A4E /* LaunchScreen.storyboard in Resources */,
+				7A3E9DD21E07ED3600901C62 /* BullsEye.html in Resources */,
 				7AEA2A791DEBDEF400587A4E /* Assets.xcassets in Resources */,
 				7AEA2A771DEBDEF400587A4E /* Main.storyboard in Resources */,
 			);
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A5564E61DEED6E000771109 /* AboutViewController.swift in Sources */,
 				7AEA2A741DEBDEF400587A4E /* ViewController.swift in Sources */,
 				7AEA2A721DEBDEF400587A4E /* AppDelegate.swift in Sources */,
 			);
@@ -261,12 +269,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = VJ9QDXBTX6;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pavelprokofyev.BullsEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -274,12 +284,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = VJ9QDXBTX6;
 				INFOPLIST_FILE = BullsEye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pavelprokofyev.BullsEye;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -302,6 +314,7 @@
 				7AEA2A821DEBDEF400587A4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
